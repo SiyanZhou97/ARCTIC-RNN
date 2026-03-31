@@ -18,7 +18,7 @@ Combine data-constrained RNNs with task-performing agents to study how neural dy
 `Adaptation_in_obstacle_environment_RL.ipynb` contains code to further train the data-derived agents through reward-based learning, in environments beyond those originally used to collect the data for training via ARCTIC. This allows us to examine the behavioral capacity of the data-derived neural dynamics. This notebook is only for the purpose of demonstrating the code, as the actually training loop takes too long (~2 hours per epoch) and thus is more optimal to be run as a bash job.  
 
 ## Data
-For demonstration purpose, example data of one mouse session and processed results can be found at: . This session was used to generate the plots in the above notebooks. Additional data are available upon request to the corresponding authors.  
+For demonstration purpose, example data of one mouse session and its corresponding trained models can be found at: https://www.dropbox.com/scl/fo/7ky3vvyv55zs5e5hn2kcm/AP0wGrHwiYfx70AXyhiGUkc?rlkey=r5na95mojccfrw2ijwkbu5sth&st=yk6k3noz&dl=0. This session was used to generate the plots in the above notebooks. Additional data are available upon request to the corresponding authors.  
 
 ## Software requirements
 This repository was developed with `Python=3.7.12`, `numpy=1.16.5` and `cupy=8.4.0`. 
